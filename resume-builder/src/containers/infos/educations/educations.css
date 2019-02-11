@@ -1,0 +1,14 @@
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+.input-container{
+    /* width: 50%; */
+    display: inline-block;
+    margin: 0;
+}
+.details{
+    display: inline-block;
+
+}

@@ -1,0 +1,138 @@
+.preview-container {
+    margin: 1rem;
+    border-left: 2px solid black;
+    padding-left: 1rem;
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.edu-btn-center{
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-btn-center > *{
+    margin: 1rem 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-text{
+    text-align: center;
+    align-self: center;
+}
+
+.main{
+    color: #1aacf0;
+    font-size: 2rem;
+}
+
+.main-desc{
+    color: rgb(34, 28, 28);
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+btn-delete{
+    padding: .5rem;
+    background: red;
+}
+
+.pr ~ *{
+    margin: 1rem 0;
+}
+
+.pr{
+    margin-bottom: 3rem;
+}
+
+.skills{
+    display: inline-block;
+}
+
+.pr-wid {
+    padding: 1px 10%;
+    font-size: 5px
+}
+
+.pr-green {
+    background-color: rgb(77, 163, 89);
+}
+
+.pr-blue {
+    background-color: rgb(47, 128, 165);
+}
+
+.pr-purple {
+    background-color: rgb(57, 52, 105);
+}
+.pr-yellow {
+    background-color: rgb(230, 255, 89);
+}
+.pr-red {
+    background-color: rgb(211, 78, 74);
+}
+
+.pr-name {
+    font-size: 30px;
+}
+
+.pr-email, .pr-phone {
+    color: rgb(95, 95, 95);
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+
+}
+.personal-info > *{
+    margin: .5rem 0;
+}
+
+.title-project{
+    font-weight: bold;
+}
+
+.description {
+    color: #585757;
+}
+
+.proj-desc > *{
+    margin: 1rem 0;
+}
+
+.pr-extrasEntry{
+    margin: 2rem 0;
+}
+
+.extra-desc > *{
+    margin: 1rem 0;
+}
+
+.extra-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.left{
+    font-weight: bold;
+}
+
+.right{
+    font-style: italic;
+}
