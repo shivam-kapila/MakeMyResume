@@ -1,2 +1,3 @@
-/resume-builder/node_modules/
-/server/node_modules/
+./resume-builder/node_modules/
+./server/node_modules/
+.vscode
